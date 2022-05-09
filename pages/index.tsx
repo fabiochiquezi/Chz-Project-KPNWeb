@@ -2,6 +2,7 @@ import Head from 'next/head'
 import type { NextPage } from 'next'
 import HeadStruct from '../components/Struct/HeadStruct'
 import IntroSec from '../components/Sections/Intro'
+import WhatAreWeDoing from '../components/Sections/WhatAreWeDoing'
 
 const Home: NextPage = () => {
     return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
             <main>
                 <HeadStruct />
                 <IntroSec />
+                <WhatAreWeDoing />
             </main>
         </>
     )
