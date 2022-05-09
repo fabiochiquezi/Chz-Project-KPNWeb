@@ -1,0 +1,98 @@
+:root {
+    --font1: 'Lato', sans-serif;
+    --font2: 'Cormorant Garamond', serif;
+
+    --blue: #70b3fe;
+    --yellow: #fef970;
+    --red: #fc4040;
+    --green: #12e3ad;
+    --gray1: #c2bfbf;
+    --gray2: #424242;
+}
+
+/* Fonts */
+body,
+html {
+    font-family: var(--font1);
+    color: var(--gray1);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b {
+    color: var(--gray2);
+}
+
+/* Structure */
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 576px) {
+    .container-sm,
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1320px;
+    }
+}
+
+/* ScrollBar */
+body::-webkit-scrollbar {
+    width: 6px;
+    border: none;
+    outline: none;
+}
+body::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 6px #1B1B1B; */
+    border: none;
+    outline: none;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--blue);
+    border: none;
+    outline: none;
+    /* outline: 1px solid slategrey; */
+}
