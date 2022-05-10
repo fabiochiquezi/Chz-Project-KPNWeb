@@ -1,9 +1,16 @@
-import '../styles/reset.css'
-import '../styles/globals.css'
+import GlobalCSS from '../styles/globals'
+import ResetCSS from '../styles/reset'
+
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />
+    return (
+        <>
+            <ResetCSS />
+            <GlobalCSS />
+            <Component {...pageProps} />
+        </>
+    )
 }
 
 export default MyApp
