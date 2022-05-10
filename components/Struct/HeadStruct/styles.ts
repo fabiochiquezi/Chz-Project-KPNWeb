@@ -4,10 +4,10 @@ const Header = styled.header`
     display: flex;
     justify-content: center;
     margin-top: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
 
     @media (min-width: 640px) {
-        margin-bottom: 75px;
+        margin-bottom: 60px;
     }
 
     .logo {
