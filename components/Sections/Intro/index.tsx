@@ -8,7 +8,7 @@ const IntroSec: React.FC = () => {
             <div className="container">
                 <div className="img-1">
                     <Image
-                        src="/intro/left.png"
+                        src="/sec-intro/left.png"
                         layout="responsive"
                         width={432}
                         height={848}
@@ -24,24 +24,32 @@ const IntroSec: React.FC = () => {
                         <b>knowledge</b> and
                         <b> network</b>. Join us.
                     </p>
+                    <div className="wrap-img arrow-down-illustration">
+                        <Image
+                            src="/icons/arrow-down-illustration-1.svg"
+                            layout="responsive"
+                            width={55}
+                            height={168}
+                        />
+                    </div>
                 </div>
 
                 <div className="mobile-illustration wrap-img">
                     <picture>
                         <source
-                            srcSet="/intro/tablet-illustration-1.png"
+                            srcSet="/sec-intro/tablet-illustration-1.png"
                             media="(min-width: 600px)"
                         />
                         <img
-                            src="/intro/mobile-illustration-1.png"
-                            alt="Illustration of Intro"
+                            src="/sec-intro/mobile-illustration-1.png"
+                            alt="Illustration of sec-intro"
                         />
                     </picture>
                 </div>
 
                 <div className="img-2">
                     <Image
-                        src="/intro/right.png"
+                        src="/sec-intro/right.png"
                         layout="responsive"
                         width={432}
                         height={848}
