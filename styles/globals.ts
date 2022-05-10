@@ -1,5 +1,14 @@
 import { createGlobalStyle } from 'styled-components'
 
+export const device = {
+    mobile: '360px',
+    mobileL: '640px',
+    tablet: '768px',
+    desktopS: '1024px',
+    desktopM: '1280px',
+    desktopL: '1536px'
+}
+
 export default createGlobalStyle`
     :root {
         --font1: 'Lato', sans-serif;
@@ -24,58 +33,29 @@ export default createGlobalStyle`
     }
 
     /* Structure */
-    .container,
-    .container-fluid,
-    .container-xxl,
-    .container-xl,
-    .container-lg,
-    .container-md,
-    .container-sm {
+    .container {
         width: 100%;
         margin-right: auto;
         margin-left: auto;
         padding: 0px 15px;
     }
-    @media (min-width: 640px) {
-        .container-sm,
+    @media ${device.mobileL} {
         .container {
             width: 100%;
             max-width: 640px;
         }
     }
-    @media (min-width: 768px) {
-        .container-md,
-        .container-sm,
-        .container {
-            max-width: 768px;
-        }
+    @media ${device.tablet} {
+        .container { max-width: 768px; }
     }
-    @media (min-width: 1024px) {
-        .container-lg,
-        .container-md,
-        .container-sm,
-        .container {
-            max-width: 1024px;
-        }
+    @media ${device.desktopS} {
+        .container { max-width: 1024px; }
     }
-    @media (min-width: 1280px) {
-        .container-xl,
-        .container-lg,
-        .container-md,
-        .container-sm,
-        .container {
-            max-width: 1280px;
-        }
+    @media ${device.desktopM} {
+        .container { max-width: 1280px; }
     }
-    @media (min-width: 1536px) {
-        .container-xxl,
-        .container-xl,
-        .container-lg,
-        .container-md,
-        .container-sm,
-        .container {
-            max-width: 1536px;
-        }
+    @media ${device.desktopL} {
+        .container { max-width: 1536px; }
     }
 
     /* ScrollBar */
@@ -99,4 +79,4 @@ export default createGlobalStyle`
         max-width: 100%;
         width: 100%;
     }
-}`
+`
