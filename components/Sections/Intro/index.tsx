@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import styles from './IntroSec.module.css'
+import { Section } from './styles'
 
 const IntroSec: React.FC = () => {
     return (
-        <section>
-            <div className={styles.Wrapper + ' container'}>
-                <div className={styles.Img1}>
+        <Section>
+            <div className="container">
+                <div className="img-1">
                     <Image
                         src="/intro/left.png"
                         layout="responsive"
@@ -15,7 +15,7 @@ const IntroSec: React.FC = () => {
                     />
                 </div>
 
-                <div className={styles.Content}>
+                <div className="content">
                     <h1>
                         International <br /> Student Agency
                     </h1>
@@ -25,16 +25,21 @@ const IntroSec: React.FC = () => {
                         <b> network</b>. Join us.
                     </p>
                 </div>
-                <div className={styles.mobileIllustration}>
-                    <Image
-                        src="/intro/mobile-illustration-1.png"
-                        layout="responsive"
-                        width={331}
-                        height={470}
-                    />
+
+                <div className="mobile-illustration wrap-img">
+                    <picture>
+                        <source
+                            srcSet="/intro/tablet-illustration-1.png"
+                            media="(min-width: 600px)"
+                        />
+                        <img
+                            src="/intro/mobile-illustration-1.png"
+                            alt="Illustration of Intro"
+                        />
+                    </picture>
                 </div>
 
-                <div className={styles.Img2}>
+                <div className="img-2">
                     <Image
                         src="/intro/right.png"
                         layout="responsive"
@@ -43,7 +48,7 @@ const IntroSec: React.FC = () => {
                     />
                 </div>
             </div>
-        </section>
+        </Section>
     )
 }
 
