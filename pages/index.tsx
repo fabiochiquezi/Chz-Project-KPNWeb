@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import type { NextPage } from 'next'
-import HeadStruct from '../components/Struct/HeadStruct'
 import IntroSec from '../components/Sections/Intro'
+import WrapStruct from '../components/Struct/WrapStruct'
 // import WhatAreWeDoing from '../components/Sections/WhatAreWeDoing'
 
 const Home: NextPage = () => {
@@ -16,11 +16,9 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main>
-                <HeadStruct />
+            <WrapStruct>
                 <IntroSec />
-                {/* <WhatAreWeDoing /> */}
-            </main>
+            </WrapStruct>
         </>
     )
 }
