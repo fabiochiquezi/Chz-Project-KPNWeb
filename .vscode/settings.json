@@ -17,7 +17,8 @@
         ".babelrc": true,
         // "public": true,
         ".prettierrc": true,
-        "design": true
+        "design": true,
+        "package.json": true
     },
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"

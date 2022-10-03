@@ -1,16 +1,16 @@
 import React from 'react'
-import { Footer } from './styles'
+import { FooterS } from './styles'
 
-const FooterStruct: React.FC = () => {
+const Footer: React.FC = () => {
     return (
         <div className="container">
-            <Footer>
+            <FooterS>
                 <p>
                     <span>© 2022 | KPN.</span> Todos os direitos reservados.
                 </p>
-            </Footer>
+            </FooterS>
         </div>
     )
 }
 
-export default FooterStruct
+export { Footer }

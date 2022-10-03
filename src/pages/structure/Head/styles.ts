@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Header = styled.header`
+const HeaderS = styled.header`
     display: flex;
     justify-content: center;
     margin-top: 16px;
@@ -20,4 +20,4 @@ const Header = styled.header`
         }
     }
 `
-export default Header
+export default HeaderS

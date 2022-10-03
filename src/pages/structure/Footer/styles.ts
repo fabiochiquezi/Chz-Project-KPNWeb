@@ -1,20 +1,20 @@
 import styled from 'styled-components'
-import { device } from '../../../styles/globals'
+import { device } from '../../../general/styles/globals'
 
-export const Footer = styled.footer`
+export const FooterS = styled.footer`
     max-width: 90%;
     margin: 0 auto;
-    border-top: 1px solid var(--gray1) ;
+    border-top: 1px solid var(--gray1);
     padding-top: 10px;
     margin-bottom: 20px;
     margin-top: 78px;
 
-    @media ${device.tablet}{
+    @media ${device.tablet} {
         max-width: 70%;
         max-width: 800px;
     }
 
-    p{
+    p {
         text-align: center;
         color: var(--gray2);
         font-family: var(--font1);
@@ -22,10 +22,10 @@ export const Footer = styled.footer`
         font-size: 16px;
     }
 
-    span{
+    span {
         display: block;
 
-        @media ${device.tablet}{
+        @media ${device.tablet} {
             display: inline;
         }
     }

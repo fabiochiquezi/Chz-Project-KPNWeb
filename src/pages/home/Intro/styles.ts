@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import { device } from '../../../styles/globals'
+import { device } from '../../../general/styles/globals'
 
 export const Section = styled.section`
-    .container{
+    .container {
         @media ${device.desktopS} {
             display: flex;
             justify-content: center;
@@ -122,8 +122,8 @@ export const Section = styled.section`
             width: 420px;
         }
     }
-    .arrow-down-illustration{
-        display: none ;
+    .arrow-down-illustration {
+        display: none;
         @media ${device.desktopS} {
             display: block;
             width: 35px;

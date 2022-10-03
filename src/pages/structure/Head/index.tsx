@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import Header from './styles'
+import HeaderS from './styles'
 
-const HeadStruct: React.FC = () => {
+const Header: React.FC = () => {
     return (
-        <Header>
+        <HeaderS>
             <a href="" className="logo">
                 <Image
                     alt="KPN Logo"
@@ -14,8 +14,8 @@ const HeadStruct: React.FC = () => {
                     layout="responsive"
                 />
             </a>
-        </Header>
+        </HeaderS>
     )
 }
 
-export default HeadStruct
+export { Header }
