@@ -10,8 +10,11 @@ import Portfolio from './Portfolio'
 const Home: NextPage = () => (
     <div>
         <Head>
-            <title>LWF | Home</title>
-            <meta name="description" content="Student Agency International" />
+            <title>KPN Project</title>
+            <meta
+                name="description"
+                content="We're a group of students, we work for knowledge and friendship. Join us."
+            />
             <link rel="icon" href="/favicon.ico" />
         </Head>
 

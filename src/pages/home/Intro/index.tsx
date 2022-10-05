@@ -22,7 +22,7 @@ const IntroSec: React.FC = () => {
                     <p>
                         We&apos;re a group of students, we <b>work</b> for
                         <b> knowledge</b> and
-                        <b> friendship</b>. Join us.
+                        <b> network</b>. Join us.
                     </p>
                     <div className="wrap-img arrow-down-illustration">
                         <Image

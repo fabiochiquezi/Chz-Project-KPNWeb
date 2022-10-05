@@ -33,9 +33,6 @@ const WhatAreWeDoing: React.FC = () => {
                         <div className="text">
                             <h5>Knowledge</h5>
                             <p>
-                                {/* Here we seek to simulate a company environment,
-                                learn different technologies and the best, learn
-                                together. You won&apos;t be alone anymore. */}
                                 Exchanging ideas and experience with people
                                 throughout the entire world.
                             </p>

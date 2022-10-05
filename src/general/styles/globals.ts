@@ -1,14 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
 
-export const device = {
-    mobile: '(min-width: 360px)',
-    mobileL: '(min-width: 640px)',
-    tablet: '(min-width: 768px)',
-    desktopS: '(min-width: 1024px)',
-    desktopM: '(min-width: 1280px)',
-    desktopL: '(min-width: 1536px)',
-}
-
 export default createGlobalStyle`
     :root {
         --font1: 'Lato', sans-serif;
@@ -39,22 +30,22 @@ export default createGlobalStyle`
         margin-left: auto;
         padding: 0px 15px;
     }
-    @media ${device.mobileL} {
+    @media (min-width: 640px) {
         .container {
             width: 100%;
             max-width: 640px;
         }
     }
-    @media ${device.tablet} {
+    @media (min-width: 768px) {
         .container { max-width: 768px; }
     }
-    @media ${device.desktopS} {
+    @media (min-width: 1024px) {
         .container { max-width: 1024px; }
     }
-    @media ${device.desktopM} {
+    @media (min-width: 1280px) {
         .container { max-width: 1280px; }
     }
-    @media ${device.desktopL} {
+    @media (min-width: 1536px) {
         .container { max-width: 1536px; }
     }
 

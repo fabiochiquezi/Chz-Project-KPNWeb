@@ -14,24 +14,6 @@ const JoinUs: React.FC = () => {
                 </p>
             </Title>
 
-            {/* <div className="content">
-                <BoxProfession
-                    src="./sec-join-us/design.png"
-                    profession="Front-End"
-                    content="HTML, CSS, JS, React..."
-                />
-                <BoxProfession
-                    src="./sec-join-us/dev.png"
-                    profession="Back-end Developer"
-                    content="Node, PHP, JAVA..."
-                />
-                <BoxProfession
-                    src="./sec-join-us/manager.png"
-                    profession="Designer"
-                    content="UI/UX, Logo, Brand..."
-                />
-            </div> */}
-
             <div className="buttons">
                 <DiscordButton user="Chiquezi#3816" />
                 <WhatsappButton url="https://wa.me/5519983127035?text=ProjectKPN" />

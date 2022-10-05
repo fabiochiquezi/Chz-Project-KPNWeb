@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { device } from '../../../general/styles/globals'
 
 export const Section = styled.section`
     margin-bottom: 48px;
@@ -10,7 +9,7 @@ export const Section = styled.section`
     }
 
     .container {
-        @media ${device.desktopS} {
+        @media (min-width: 1024px) {
             display: flex;
             justify-content: center;
             flex-wrap: nowrap;
@@ -22,10 +21,10 @@ export const Section = styled.section`
         flex-direction: column;
         align-items: center;
 
-        @media ${device.desktopS} {
+        @media (min-width: 1024px) {
             margin-top: 120px;
         }
-        @media ${device.desktopM} {
+        @media (min-width: 1280px) {
             margin-top: 165px;
         }
 
@@ -37,16 +36,16 @@ export const Section = styled.section`
             font-weight: bold;
             line-height: 100%;
 
-            @media ${device.tablet} {
+            @media (min-width: 768px) {
                 font-size: 48px;
             }
 
-            @media ${device.desktopS} {
+            @media (min-width: 1024px) {
                 margin-top: 90px;
                 font-size: 56px;
             }
 
-            @media ${device.desktopM} {
+            @media (min-width: 1280px) {
                 font-size: 70px;
             }
         }
@@ -58,22 +57,19 @@ export const Section = styled.section`
             max-width: 320px;
             margin-bottom: 24px;
 
-            @media ${device.tablet} {
+            @media (min-width: 768px) {
                 font-size: 22px;
                 max-width: 400px;
                 margin-bottom: 24px;
             }
 
-            @media ${device.desktopS} {
+            @media (min-width: 1024px) {
                 font-size: 21px;
                 margin-bottom: 62px;
             }
-            @media ${device.desktopM} {
+            @media (min-width: 1280px) {
                 font-size: 23px;
                 max-width: 400px;
-            }
-            @media ${device.desktopL} {
-                /* font-size: 32px; */
             }
         }
 
@@ -87,47 +83,47 @@ export const Section = styled.section`
         max-width: 262px;
         margin: 0 auto;
 
-        @media ${device.tablet} {
+        @media (min-width: 768px) {
             max-width: 300px;
         }
 
-        @media ${device.desktopS} {
+        @media (min-width: 1024px) {
             display: none;
         }
     }
     .img-1 {
         display: none;
 
-        @media ${device.desktopS} {
+        @media (min-width: 1024px) {
             display: block;
             width: 300px;
         }
-        @media ${device.desktopM} {
+        @media (min-width: 1280px) {
             width: 340px;
         }
-        @media ${device.desktopL} {
+        @media (min-width: 1536px) {
             /* width: 420px; */
         }
     }
     .img-2 {
         display: none;
 
-        @media ${device.desktopS} {
+        @media (min-width: 1024px) {
             display: block;
             width: 300px;
             margin-top: 70px;
         }
-        @media ${device.desktopM} {
+        @media (min-width: 1280px) {
             width: 340px;
         }
-        @media ${device.desktopL} {
+        @media (min-width: 1536px) {
             /* width: 420px; */
         }
     }
     .arrow-down-illustration {
         display: none;
 
-        @media ${device.desktopS} {
+        @media (min-width: 1024px) {
             display: block;
             width: 35px;
         }

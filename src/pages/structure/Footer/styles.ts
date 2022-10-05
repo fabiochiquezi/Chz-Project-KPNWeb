@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { device } from '../../../general/styles/globals'
 
 export const FooterS = styled.footer`
     max-width: 90%;
@@ -9,7 +8,7 @@ export const FooterS = styled.footer`
     margin-bottom: 14px;
     margin-top: 0px;
 
-    @media ${device.tablet} {
+    @media (min-width: 768px) {
         max-width: 70%;
         /* max-width: 800px; */
     }
@@ -25,7 +24,7 @@ export const FooterS = styled.footer`
     span {
         display: block;
 
-        @media ${device.tablet} {
+        @media (min-width: 768px) {
             display: inline;
         }
     }
