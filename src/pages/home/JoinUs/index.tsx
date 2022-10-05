@@ -9,8 +9,8 @@ const JoinUs: React.FC = () => {
         <Section>
             <Title title="Let’s build something amazing together.">
                 <p>
-                    Send to us your name, country, profession, portfolio/github
-                    and why you want to join us. We&apos;ll answer in 24h.
+                    Send us your name, country, profession, portfolio/github and
+                    why you want to join us. We&apos;ll respond within 24 hours.
                 </p>
             </Title>
 

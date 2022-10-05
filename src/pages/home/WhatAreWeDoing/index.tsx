@@ -7,9 +7,9 @@ const WhatAreWeDoing: React.FC = () => {
         <Div>
             <Title title="What are we doing?">
                 <p>
-                    Gathering students who wants to work in exchange for{' '}
-                    <b>knowledge</b>, <b>portfolio</b>, and
-                    <b> network</b> in open-source projects.
+                    Bringing together students who want to work in exchange for{' '}
+                    <b> knowledge</b>, <b> portfolio</b> and <b> network</b> on
+                    open-source projects.
                 </p>
             </Title>
 
@@ -33,8 +33,8 @@ const WhatAreWeDoing: React.FC = () => {
                         <div className="text">
                             <h5>Knowledge</h5>
                             <p>
-                                Exchanging ideas and experience with people
-                                throughout the entire world.
+                                Exchange ideas and experiences with people from
+                                all over the world.
                             </p>
                         </div>
                     </li>
@@ -44,8 +44,8 @@ const WhatAreWeDoing: React.FC = () => {
                         <div className="text">
                             <h5>Portfolio</h5>
                             <p>
-                                Single you just do simple and boring things.
-                                Together we&apos;ll build big projects!
+                                Alone you just do simple and boring things.
+                                Together we will build great projects!
                             </p>
                         </div>
                     </li>
@@ -55,8 +55,8 @@ const WhatAreWeDoing: React.FC = () => {
                         <div className="text">
                             <h5>Network</h5>
                             <p>
-                                Making friends and joining a community is a
-                                really important part of the process.
+                                Making friends and joining a community is a very
+                                important part of the process.
                             </p>
                         </div>
                     </li>

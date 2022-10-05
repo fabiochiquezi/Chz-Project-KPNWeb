@@ -8,8 +8,8 @@ const HowItWorks: React.FC = () => {
         <Section>
             <Title title="How It Works">
                 <p>
-                    The project is still new, so honestly, we don&apos;t have
-                    yet all settled up, so come and help us to build it.
+                    The project is still new, so honestly, we don&apos;t have it
+                    all figured out yet, so come help us build it.
                 </p>
             </Title>
 
@@ -25,7 +25,7 @@ const HowItWorks: React.FC = () => {
                     <Question
                         question="What do I need to join the group?"
                         answer="
-                            1) Intermediate English: At least a small level of communication is needed to work as a team.
+                            1) Intermediate English: At least a small level of communication is required to work in a team.
                             2) Working with development or design.
                             3) Want to learn, make friends and build great projects
                         "
@@ -33,7 +33,7 @@ const HowItWorks: React.FC = () => {
 
                     <Question
                         question="How many people can participate?"
-                        answer="At this time we are targeting a small group of 5 people, so if it is full we will form a group to wait"
+                        answer="Right now we're targeting a small group of 5 people, so if it's full we'll form a group to wait"
                     />
 
                     <Question
