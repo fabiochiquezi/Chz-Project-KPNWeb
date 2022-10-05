@@ -17,12 +17,12 @@ const IntroSec: React.FC = () => {
 
                 <div className="content">
                     <h1>
-                        International <br /> Student Agency
+                        An International <br /> Student Group
                     </h1>
                     <p>
-                        We{"'"}re an agency of students, we <b>work</b> for{' '}
-                        <b>knowledge</b> and
-                        <b> network</b>. Join us.
+                        We&apos;re a group of students, we <b>work</b> for
+                        <b> knowledge</b> and
+                        <b> friendship</b>. Join us.
                     </p>
                     <div className="wrap-img arrow-down-illustration">
                         <Image

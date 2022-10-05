@@ -6,7 +6,7 @@ export const device = {
     tablet: '(min-width: 768px)',
     desktopS: '(min-width: 1024px)',
     desktopM: '(min-width: 1280px)',
-    desktopL: '(min-width: 1536px)'
+    desktopL: '(min-width: 1536px)',
 }
 
 export default createGlobalStyle`
@@ -78,5 +78,25 @@ export default createGlobalStyle`
     .wrap-img img {
         max-width: 100%;
         width: 100%;
+    }
+
+    /* Sections */
+    .sec {
+        margin-bottom: 48px;
+
+        @media (min-width: 1024px) {
+            margin-bottom: 99px;
+        }
+    }
+
+    /* Animations */
+    .button-anim{
+        transition: all .25s ease;
+    }
+    .button-anim:hover{
+        opacity: 0.8;
+    }
+    .button-anim:active{
+        transform: scale(0.98);
     }
 `

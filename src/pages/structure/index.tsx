@@ -8,7 +8,7 @@ type props = {
 
 const Structure: React.FC<props> = ({ children }) => {
     return (
-        <main>
+        <main className="container">
             <Header />
             {children}
             <Footer />

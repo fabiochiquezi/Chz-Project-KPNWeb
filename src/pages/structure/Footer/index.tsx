@@ -6,7 +6,10 @@ const Footer: React.FC = () => {
         <div className="container">
             <FooterS>
                 <p>
-                    <span>© 2022 | KPN.</span> Todos os direitos reservados.
+                    This project is on GitHub:{' '}
+                    <a href="https://github.com/fabiochiquezi/Chz-ProjectKPN-Web">
+                        KPN Project
+                    </a>
                 </p>
             </FooterS>
         </div>

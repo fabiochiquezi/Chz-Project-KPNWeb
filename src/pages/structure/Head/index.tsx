@@ -5,7 +5,7 @@ import HeaderS from './styles'
 const Header: React.FC = () => {
     return (
         <HeaderS>
-            <a href="" className="logo">
+            <div className="logo">
                 <Image
                     alt="KPN Logo"
                     src="/logo.svg"
@@ -13,7 +13,7 @@ const Header: React.FC = () => {
                     height={54}
                     layout="responsive"
                 />
-            </a>
+            </div>
         </HeaderS>
     )
 }
