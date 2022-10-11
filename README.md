@@ -1,21 +1,16 @@
-#KPN Project -
-#####Knowledge | Portfolioo | Network
+# KPN Project
 
-We're an agency of students, we work for knowledge and network. Join us.
-<br />
+This is my project and a template website. The project is about gathering people to build nice/open-source projects together.
+Although, this repo is the website template that we been using for it, and it's free for anyone who may want to use it for any other purpose.
+&nbsp;
 
-###Design:
-https://www.figma.com/file/BeByvkoGVbQzreqpq6SrAm/LWF---Project?node-id=0%3A1
-<br />
+## Preview
 
-###Install:
-1. npm install / yarn install (install all packages needed)
-2. npm dev / yarn dev (run the project)
-<br />
+kpn.chiquezi.com/home
+&nbsp;
 
-###Technologies:
-- HTML / CSS / JS
-- React JS
-- Styled Components
-- Typescript
-- ESLint (Standard)
+## Install
+
+1. clone repo
+2. install project (yarn install)
+3. run project: (yarn dev)

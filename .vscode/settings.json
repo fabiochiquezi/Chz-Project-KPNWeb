@@ -10,7 +10,7 @@
         ".gitignore": true,
         "next-env.d.ts": true,
         "next.config.js": true,
-        "README.md": true,
+        // "README.md": true,
         "tsconfig.json": true,
         "yarn.lock": true,
         ".editorconfig": true,
@@ -18,7 +18,7 @@
         // "public": true,
         ".prettierrc": true,
         "design": true,
-        "package.json": true
+        // "package.json": true
     },
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
