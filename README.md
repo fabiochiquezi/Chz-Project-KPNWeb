@@ -1,16 +1,62 @@
-# KPN Project
+<br />
+<p align="center">
+    <img src="https://www.chiquezi.com/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Flogo%2Flogo.c442afade084ba1adfa95e1aecfc83d0.svg&w=384&q=75" width="125">
+</p>
 
-This is my project and a template website. The project is about gathering people to build nice/open-source projects together.
-Although, this repo is the website template that we been using for it, and it's free for anyone who may want to use it for any other purpose.
-&nbsp;
+# 🤙 KPN Project
 
-## Preview
+[![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Ffabiochiquezi.github.io%2F)](https://kpn.chiquezi.com/home)
 
-kpn.chiquezi.com/home
-&nbsp;
+This is a template website of one of my projects.
 
-## Install
+1. The template is open for anyone who want to use and improve it.
+2. The project is about assembling a group of people to work together and you can know more about <a href="https://kpn.chiquezi.com/home" target="_blank">here</a>.
 
-1. clone repo
-2. install project (yarn install)
-3. run project: (yarn dev)
+<p float="left">
+<img
+    src="design/md/screen-01.jpg?raw=true"
+    alt="screenshot"
+    title="screenshot"
+    width="250"
+/>
+<img
+    src="design/md/screen-mobile-01.jpg?raw=true"
+    alt="screenshot"
+    title="screenshot"
+    height="322"
+/>
+
+</p>
+
+## 📡 Technologies / Packages
+
+-   HTML
+-   CSS
+-   StyledComponents
+-   JavaScript
+-   Typescript
+-   React / NextJS
+-   ESLint
+
+## 📂 Structure
+
+    -- public
+    -- src
+        -- components (general components)
+        -- general
+            -- styles (global)
+        -- pages
+
+## 🚀 How to run
+
+1. **git clone** https://github.com/fabiochiquezi/Chz-ProjectKPN-Web.git
+2. **cd** Chz-ProjectKPN-Web
+3. **yarn install** or **npm install**
+4. **yarn dev** or **npm dev**
+
+<img
+    src="design/md/carbon.png?raw=true"
+    alt="screenshot"
+    title="screenshot"
+    width="500"
+/>
